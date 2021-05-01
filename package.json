@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "tsc:build": "tsc -p tsconfig.json --build",
+    "tsc:watch": "tsc -p tsconfig.json --watch",
+    "debug": "chokidar 'out/*.js' -c 'node out/*.js'"
+  },
+  "devDependencies": {
+    "chokidar-cli": "^2.1.0"
+  }
+}
